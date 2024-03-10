@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Leaflet Geolocation with Form Example</title>
+  <title>Location Detect</title>
 
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
 
@@ -44,7 +44,6 @@
   </form>
 
   <script>
-
 
 
     if ("geolocation" in navigator) {
