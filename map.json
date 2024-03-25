@@ -1,5 +1,41 @@
 {
-    "labels": ["January", "February", "March", "April", "May"],
-    "data": [30, 50, 20, 100, 35]
-  }
-  
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [40.7128, -74.0060],
+            [34.0522, -118.2437],
+            [41.8781, -87.6298],
+            [40.7128, -74.0060]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "New York City",
+        "description": "This polygon represents New York City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [51.5074, -0.1278],
+            [48.8566, 2.3522],
+            [52.5200, 13.4050],
+            [51.5074, -0.1278]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "London",
+        "description": "This polygon represents London"
+      }
+    }
+  ]
+}
